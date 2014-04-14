@@ -1,5 +1,6 @@
 {-# LANGUAGE UndecidableInstances #-}
--- Search for -fallow-undecidable-instances to see why this is needed
+{-# LANGUAGE FlexibleInstances #-}
+{-# LANGUAGE MultiParamTypeClasses #-}
 
 -----------------------------------------------------------------------------
 -- |

@@ -7,7 +7,7 @@ synopsis:            Implementation of the "Monads, Zippers and Views" (Schrijve
 description:         Implementation of the "Monads, Zippers and Views" (Schrijvers and Oliveira, ICFP'11)
 homepage:     	     http://github.com/ifigueroap/mzv
 bug-reports:  	     http://github.com/ifigueroap/mzv/issues
-license:             OtherLicense
+license:             BSD3
 license-file:        LICENSE
 author:              Tom Schrijvers, Bruno Oliveira
 maintainer:          Ismael Figueroa <ifigueroap@gmail.com>
@@ -45,9 +45,11 @@ Library
     Control.Monad.Writer.Class
     Control.Monad.Writer.Lazy
     Control.Monad.Writer.Strict
+  hs-source-dirs:      src
   build-depends: base < 6, transformers == 0.3.*
-  extensions:
+  other-extensions:
     MultiParamTypeClasses
     FunctionalDependencies
     FlexibleInstances
   ghc-options: -Wall -fno-warn-unused-imports
+  default-language:    Haskell98

@@ -1,4 +1,7 @@
-{-# OPTIONS -fallow-undecidable-instances #-}
+{-# LANGUAGE UndecidableInstances #-}
+{-# LANGUAGE FlexibleInstances #-}
+{-# LANGUAGE MultiParamTypeClasses #-}
+
 -- Needed for the same reasons as in Reader, State etc
 
 -----------------------------------------------------------------------------
